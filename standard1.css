@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: black;
+    font-size: 4rem;
+    color: aliceblue;
+}
+h6 {
+    text-align: center;
+    font-family: 'Slackside One', cursive;
+    font-size: 3rem;
+    font-weight: 100;
+    border-bottom: 0.5px solid;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.all {
+   display: flex;
+}
+
+.left {
+   background-color: rgb(154 154 154);
+}
+
+.contant {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 1000;
+    margin: 0.5rem;
+}
+.first{
+    display: flex;
+    margin: 1rem;
+}
+.second{
+    display: flex;
+    margin: 1rem;
+}
+.third{
+    display: flex;
+    margin: 1rem;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+}
+.skill h2{
+    margin: 0.5rem;
+}
+
+.lang {
+    display: flex;
+    flex-direction: column;
+}
+.lang h2{
+    text-align: center;
+    margin: 0.3rem;
+}
+
+#loc {
+    height: 1.5rem;
+    padding-right: 0.5rem;
+}
+.para{
+    border-bottom: 1px solid;
+}
+h5{
+    font-size: 1.5rem;
+    margin: 2.5rem;
+}
+.expert{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+}
+.expert h2{
+    margin-left: 2.5rem;
+}
+h4{
+    margin: 0.5rem;
+    margin-left: 2.5rem;
+}
+.edu{
+    display: flex;
+    flex-direction: column;
+}
+.edu h5{
+    margin: 0.5rem;
+    margin-left: 2.5rem;
+}
+@media (max-width:700px)  {
+    .all{
+        display: block;
+    }
+    
+}
